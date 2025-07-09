@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-const { noTrueLogging } = require("sequelize/lib/utils/deprecations")
 
 const recurringSchema = new mongoose.Schema({
     title:String,
